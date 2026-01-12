@@ -37,6 +37,16 @@ Project-1/
 │       │   └── SKILL.md
 │       └── physics-rubric/
 │           └── SKILL.md
+├── outputs/                        # Auto-saved generated materials
+│   ├── lesson-plans/
+│   │   ├── math/                   # e.g., quadratic-equations-2026-01-12.md
+│   │   └── physics/                # e.g., newtons-laws-2026-01-12.md
+│   ├── worksheets/
+│   │   ├── math/                   # e.g., linear-equations-worksheet-2026-01-12.md
+│   │   └── physics/                # e.g., ohms-law-quiz-2026-01-12.md
+│   └── rubrics/
+│       ├── math/                   # e.g., algebra-test-rubric-2026-01-12.md
+│       └── physics/                # e.g., mechanics-lab-rubric-2026-01-12.md
 ├── README.md
 └── CLAUDE.md
 ```
@@ -46,6 +56,24 @@ Each `SKILL.md` follows the official format with:
 - YAML frontmatter (`name`, `description`)
 - Markdown instructions
 - Examples and guidelines
+- **Auto-save location** for generated outputs
+
+---
+
+## Auto-Save Feature
+
+All skills automatically save generated materials to organized folders:
+
+| Skill Type | Output Location | File Naming |
+|------------|-----------------|-------------|
+| Lesson Plans | `outputs/lesson-plans/[subject]/` | `[topic]-[YYYY-MM-DD].md` |
+| Worksheets | `outputs/worksheets/[subject]/` | `[topic]-[type]-[YYYY-MM-DD].md` |
+| Rubrics | `outputs/rubrics/[subject]/` | `[assignment]-rubric-[YYYY-MM-DD].md` |
+
+**Examples:**
+- `outputs/lesson-plans/math/quadratic-equations-2026-01-12.md`
+- `outputs/worksheets/physics/newtons-laws-quiz-2026-01-12.md`
+- `outputs/rubrics/math/algebra-test-rubric-2026-01-12.md`
 
 ---
 

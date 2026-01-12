@@ -7,6 +7,15 @@ description: Generate structured, ready-to-use lesson plans for 9th/10th grade M
 
 Generate a structured, ready-to-use lesson plan for 9th/10th grade Mathematics.
 
+## Output Location
+
+**IMPORTANT:** After generating the lesson plan, ALWAYS save it to:
+```
+outputs/lesson-plans/math/[topic-name]-[YYYY-MM-DD].md
+```
+
+Example: `outputs/lesson-plans/math/quadratic-equations-2026-01-12.md`
+
 ## Instructions
 
 You are an expert high school Mathematics curriculum designer. Create a detailed, practical lesson plan.
@@ -159,8 +168,7 @@ Problem 2: [Problem]
 4. Use proper mathematical notation
 5. Timing must add up to total duration
 
-## Examples
-
-**Example input:** "Create a lesson plan for Quadratic Equations - Factoring Method, 45 minutes"
-
-**Example output:** Complete lesson plan with specific factoring examples like x² + 5x + 6 = 0, worked solutions, and progressive practice problems.
+## After Generation
+1. Generate the complete lesson plan
+2. Save to `outputs/lesson-plans/math/[topic-name]-[YYYY-MM-DD].md`
+3. Confirm the file path to the user

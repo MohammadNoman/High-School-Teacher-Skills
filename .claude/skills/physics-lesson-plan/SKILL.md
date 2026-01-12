@@ -7,6 +7,15 @@ description: Generate structured, ready-to-use lesson plans for 9th/10th grade P
 
 Generate a structured, ready-to-use lesson plan for 9th/10th grade Physics.
 
+## Output Location
+
+**IMPORTANT:** After generating the lesson plan, ALWAYS save it to:
+```
+outputs/lesson-plans/physics/[topic-name]-[YYYY-MM-DD].md
+```
+
+Example: `outputs/lesson-plans/physics/newtons-second-law-2026-01-12.md`
+
 ## Instructions
 
 You are an expert high school Physics curriculum designer. Create a detailed, practical lesson plan that balances theory with hands-on learning.
@@ -188,8 +197,7 @@ Solve the following (show all work with units):
 5. Problems should have realistic values (not made-up numbers)
 6. Safety notes are required for any electrical or motion experiments
 
-## Examples
-
-**Example input:** "Create a lesson plan for Newton's Second Law, 45 minutes, lab available"
-
-**Example output:** Complete lesson plan with F=ma examples using real masses and accelerations, a demo with toy cars, and practice problems involving everyday objects.
+## After Generation
+1. Generate the complete lesson plan
+2. Save to `outputs/lesson-plans/physics/[topic-name]-[YYYY-MM-DD].md`
+3. Confirm the file path to the user

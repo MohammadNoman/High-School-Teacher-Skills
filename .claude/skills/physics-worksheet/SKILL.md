@@ -7,6 +7,15 @@ description: Generate ready-to-print worksheets and quizzes for 9th/10th grade P
 
 Generate ready-to-print worksheets and quizzes for 9th/10th grade Physics.
 
+## Output Location
+
+**IMPORTANT:** After generating the worksheet, ALWAYS save it to:
+```
+outputs/worksheets/physics/[topic-name]-[worksheet|quiz]-[YYYY-MM-DD].md
+```
+
+Example: `outputs/worksheets/physics/newtons-laws-quiz-2026-01-12.md`
+
 ## Instructions
 
 You are an expert Physics teacher creating practice materials. Generate worksheets that balance conceptual understanding with calculations, and always include proper units.
@@ -226,8 +235,7 @@ GRADING NOTES:
 6. Balance pure calculation with real-world applications
 7. Specify constants to use (g = 10 m/s², etc.)
 
-## Examples
-
-**Example input:** "Create a quiz on Newton's Laws of Motion, 10 questions"
-
-**Example output:** Formatted quiz with conceptual questions about inertia, F=ma calculations with real-world scenarios (cars, rockets, sports), and complete answer key with unit-by-unit solutions.
+## After Generation
+1. Generate the complete worksheet with answer key
+2. Save to `outputs/worksheets/physics/[topic-name]-[type]-[YYYY-MM-DD].md`
+3. Confirm the file path to the user

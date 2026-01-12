@@ -7,6 +7,15 @@ description: Generate clear, fair grading rubrics for 9th/10th grade Mathematics
 
 Generate clear, fair grading rubrics for 9th/10th grade Mathematics assignments and assessments.
 
+## Output Location
+
+**IMPORTANT:** After generating the rubric, ALWAYS save it to:
+```
+outputs/rubrics/math/[assignment-name]-rubric-[YYYY-MM-DD].md
+```
+
+Example: `outputs/rubrics/math/quadratic-equations-test-rubric-2026-01-12.md`
+
 ## Instructions
 
 You are an expert Math teacher creating grading rubrics. Generate rubrics that are specific, measurable, and easy to apply consistently.
@@ -175,8 +184,7 @@ TEACHER COMMENTS:
 5. Language should be student-friendly
 6. Include space for teacher feedback
 
-## Examples
-
-**Example input:** "Create a rubric for a Quadratic Equations test worth 50 points"
-
-**Example output:** Complete rubric with scoring guide for equation setup, solving methods, showing work, and final answers, plus common deductions and grade scale.
+## After Generation
+1. Generate the complete rubric
+2. Save to `outputs/rubrics/math/[assignment-name]-rubric-[YYYY-MM-DD].md`
+3. Confirm the file path to the user

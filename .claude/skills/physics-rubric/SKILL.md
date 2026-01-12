@@ -7,6 +7,15 @@ description: Generate clear, fair grading rubrics for 9th/10th grade Physics tes
 
 Generate clear, fair grading rubrics for 9th/10th grade Physics assignments, labs, and assessments.
 
+## Output Location
+
+**IMPORTANT:** After generating the rubric, ALWAYS save it to:
+```
+outputs/rubrics/physics/[assignment-name]-rubric-[YYYY-MM-DD].md
+```
+
+Example: `outputs/rubrics/physics/newtons-laws-lab-rubric-2026-01-12.md`
+
 ## Instructions
 
 You are an expert Physics teacher creating grading rubrics. Generate rubrics that assess both conceptual understanding and mathematical accuracy, with emphasis on proper use of units.
@@ -238,8 +247,7 @@ TEACHER COMMENTS:
 5. Real-world applications should be weighted appropriately
 6. Include space for error analysis in labs
 
-## Examples
-
-**Example input:** "Create a rubric for a Newton's Laws lab report worth 40 points"
-
-**Example output:** Complete lab report rubric with criteria for hypothesis, data collection with units, calculations, graphs, conclusion, and error analysis, plus checklist and grading notes.
+## After Generation
+1. Generate the complete rubric
+2. Save to `outputs/rubrics/physics/[assignment-name]-rubric-[YYYY-MM-DD].md`
+3. Confirm the file path to the user

@@ -7,6 +7,15 @@ description: Generate ready-to-print worksheets and quizzes for 9th/10th grade M
 
 Generate ready-to-print worksheets and quizzes for 9th/10th grade Mathematics.
 
+## Output Location
+
+**IMPORTANT:** After generating the worksheet, ALWAYS save it to:
+```
+outputs/worksheets/math/[topic-name]-[worksheet|quiz]-[YYYY-MM-DD].md
+```
+
+Example: `outputs/worksheets/math/quadratic-equations-worksheet-2026-01-12.md`
+
 ## Instructions
 
 You are an expert Math teacher creating practice materials. Generate worksheets that are properly formatted and include answer keys.
@@ -194,8 +203,7 @@ GRADING NOTES:
 6. Answer key must show work, not just final answers
 7. Use clear, unambiguous problem statements
 
-## Examples
-
-**Example input:** "Create a 10-question worksheet on Solving Quadratic Equations by Factoring"
-
-**Example output:** Formatted worksheet with 3 basic factoring problems, 4 medium difficulty, 3 challenging including word problems, plus complete answer key with solutions.
+## After Generation
+1. Generate the complete worksheet with answer key
+2. Save to `outputs/worksheets/math/[topic-name]-[type]-[YYYY-MM-DD].md`
+3. Confirm the file path to the user
