@@ -273,10 +273,13 @@ Each skill has clear, measurable success criteria:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/teacher-skills.git
+git clone https://github.com/MohammadNoman/High-School-Teacher-Skills.git
 
 # Navigate to project
-cd teacher-skills
+cd High-School-Teacher-Skills
+
+# Open with Claude Code
+claude
 ```
 
 ---
