@@ -6,6 +6,14 @@ A collection of 6 AI-powered Agent Skills that automate repetitive teaching task
 
 ---
 
+## Demo Video
+
+[![Watch Demo](https://cdn.loom.com/sessions/thumbnails/4fda039948234062bc22898b5fb458b7-00001.jpg)](https://www.loom.com/share/4fda039948234062bc22898b5fb458b7)
+
+▶️ **[Click to watch 60-90 second demo](https://www.loom.com/share/4fda039948234062bc22898b5fb458b7)**
+
+---
+
 ## Skills Overview
 
 | # | Skill                         | Skill Name              | What It Replaces           | Time Saved          |
@@ -64,13 +72,14 @@ Each `SKILL.md` follows the official format with:
 
 All skills automatically save generated materials to organized folders:
 
-| Skill Type | Output Location | File Naming |
-|------------|-----------------|-------------|
-| Lesson Plans | `outputs/lesson-plans/[subject]/` | `[topic]-[YYYY-MM-DD].md` |
-| Worksheets | `outputs/worksheets/[subject]/` | `[topic]-[type]-[YYYY-MM-DD].md` |
-| Rubrics | `outputs/rubrics/[subject]/` | `[assignment]-rubric-[YYYY-MM-DD].md` |
+| Skill Type   | Output Location                     | File Naming                             |
+| ------------ | ----------------------------------- | --------------------------------------- |
+| Lesson Plans | `outputs/lesson-plans/[subject]/` | `[topic]-[YYYY-MM-DD].md`             |
+| Worksheets   | `outputs/worksheets/[subject]/`   | `[topic]-[type]-[YYYY-MM-DD].md`      |
+| Rubrics      | `outputs/rubrics/[subject]/`      | `[assignment]-rubric-[YYYY-MM-DD].md` |
 
 **Examples:**
+
 - `outputs/lesson-plans/math/quadratic-equations-2026-01-12.md`
 - `outputs/worksheets/physics/newtons-laws-quiz-2026-01-12.md`
 - `outputs/rubrics/math/algebra-test-rubric-2026-01-12.md`
